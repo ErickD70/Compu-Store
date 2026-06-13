@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    padding:20px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    height:70vh;
+    background:linear-gradient(
+        rgba(15,23,42,.8),
+        rgba(15,23,42,.8)
+    ),
+    url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+    
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+}
+
+.hero h2{
+    font-size:3rem;
+}
+
+.hero p{
+    margin:20px 0;
+}
+
+.hero button{
+    padding:12px 25px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+    border-radius:8px;
+}
+
+.productos{
+    padding:60px 10%;
+}
+
+.productos h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.contenedor-productos{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:280px;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+}
+
+.card h3{
+    margin:15px 0;
+}
+
+.card p{
+    margin-bottom:20px;
+    color:#2563eb;
+    font-weight:bold;
+}
+
+.registro{
+    padding:60px 10%;
+    background:white;
+}
+
+.registro h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+form{
+    max-width:500px;
+    margin:auto;
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+form button{
+    padding:12px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
