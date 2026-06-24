@@ -27,9 +27,21 @@ nav ul{
     gap:20px;
 }
 
-nav a{
-    color:white;
-    text-decoration:none;
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;       
+    border-radius: 5px;       
+    transition: background 0.3s, color 0.3s; 
+}
+
+nav a:hover {
+    background: #2563eb;      
+    color: #fff;              
+}
+
+nav a:active {
+    background: #1e40af;     
 }
 
 .hero{
@@ -116,6 +128,25 @@ nav a{
     text-align:center;
     margin-bottom:20px;
 }
+.btn-productos{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.btn-productos:hover{
+    background:#1e40af;
+}
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
 
 form{
     max-width:500px;
@@ -146,4 +177,70 @@ footer{
     color:white;
     text-align:center;
     padding:20px;
+}
+.registro{
+    padding:70px 10%;
+    background:#eef2ff;
+}
+
+
+.registro-contenedor{
+    max-width:550px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+
+.registro h2{
+    text-align:center;
+    color:#0f172a;
+    margin-bottom:10px;
+}
+
+
+.registro p{
+    text-align:center;
+    margin-bottom:25px;
+    color:#555;
+}
+
+
+.registro form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+
+.registro label{
+    font-weight:bold;
+    color:#0f172a;
+}
+
+
+.registro input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+
+.registro button{
+    margin-top:15px;
+    padding:14px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+
+.registro button:hover{
+    background:#1e40af;
 }
